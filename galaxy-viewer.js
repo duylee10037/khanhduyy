@@ -6,14 +6,14 @@ const isDemo = urlParams.get('demo') === '1' || !urlParams.get('id'); // Tự đ
 // --- Demo Data ---
 const demoGalaxyDataDefault = {
     messages: [
-        "I love you so much! ❤️", "Our Anniverasry", "I love you 💖", "17/03/2008",
+        "I love you so much! ❤️", "Our Anniverasry", "I love you 💖", "14/01/2008",
         "Thank you for being my sunshine ", "Thank you for being my everything 💕",
         "You are my universe ", "There is no other", "You're amazing",
         "You make my heart smile ", "Love ya! 💖", "Honey bunch, you are my everything! "
     ],
     icons: ["♥", "💖", "❤️", "❤️", "💕", "💕"],
     colors: '#ff6b9d',
-    images: ["https://i.ibb.co/Gf7qHPfC/z6731934312896-0fd5915cd3b832995443285cc23178f7.jpg"],
+    images: ["https://khanhduy.vercel.app/khanhduy1.jpg"],
     song: "eyenoselip.mp3",
     isHeart: true,
     textHeart: "iu Chim",
@@ -745,3 +745,4 @@ function initializeHeartAnimation() {
 
 // --- Init ---
 loadGalaxyData();
+
